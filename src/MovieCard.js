@@ -10,7 +10,6 @@ export default class MovieCard extends Component{
     render(){
         return(
             <>
-            
                 <div class="card h-100">
                     <img
                         src={this.props.movie.image_url}
